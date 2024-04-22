@@ -1,4 +1,4 @@
-package main.java.com.bookclub.service;
+package com.bookclub.service;
 
 import java.util.List;
 

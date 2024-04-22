@@ -1,7 +1,7 @@
-package main.java.com.bookclub.service.dao;
+package com.bookclub.service.dao;
 
-import main.java.com.bookclub.model.Book;
-import main.java.com.bookclub.service.GenericDao;
+import com.bookclub.model.Book;
+import com.bookclub.service.GenericDao;
 
 
 public interface BookDao extends GenericDao<Book, String> {

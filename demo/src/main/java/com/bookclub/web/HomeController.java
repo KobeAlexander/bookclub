@@ -1,7 +1,7 @@
-package main.java.com.bookclub.web;
+package com.bookclub.web;
 
-import main.java.com.bookclub.model.Book;
-import main.java.com.bookclub.service.impl.MemBookDao;
+import com.bookclub.model.Book;
+import com.bookclub.service.impl.MemBookDao;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
