@@ -16,7 +16,8 @@ import java.util.List;
 
 public class RestBookDao implements BookDao {
 
-    public RestBookDao() {  }
+    public RestBookDao() {
+    }
 
     @Override
     public List<Book> list() {
@@ -35,6 +36,12 @@ public class RestBookDao implements BookDao {
         }
 
         return books;
+    }
+
+    @Override
+    public List<Book> list(String key) {
+        Object doc = getBooksDoc(key);
+        return null;
     }
 
     @Override
