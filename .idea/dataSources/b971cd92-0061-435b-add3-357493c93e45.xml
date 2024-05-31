@@ -4,8 +4,8 @@
     <root id="1">
       <ServerVersion>7.0.8</ServerVersion>
     </root>
-    <schema id="2" parent="1" name="admin"/>
-    <schema id="3" parent="1" name="bookclub"/>
+    <schema id="2" parent="1" name="bookclub"/>
+    <schema id="3" parent="1" name="admin"/>
     <schema id="4" parent="1" name="local"/>
   </database-model>
 </dataSource>
